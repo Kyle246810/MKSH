@@ -1,7 +1,7 @@
-score=list()
-score=int(input("score="))
-while score>=0:
-    scores.append(score)
-    score = int(input('score='))
-print('數列是:',score)
-print('總分是:',sum(scores))
+mylist=[99,85,34,90,72]
+print("使用sorted的結果:")
+print(sorted(mylist))
+print("mylist=",mylist)
+mylist.sort()
+print("使用mylist.sort()之後的結果:")
+print(mylist)
