@@ -1,7 +1,11 @@
-mylist=[99,85,34,90,72]
-print("使用sorted的結果:")
-print(sorted(mylist))
-print("mylist=",mylist)
-mylist.sort()
-print("使用mylist.sort()之後的結果:")
-print(mylist)
+stu1=["王大明",174,65]
+stu2=["林小華",168,58]
+stu3=["許中和",182,70]
+stu4=["趙小華",159,45]
+body_info=[stu1,stu2,stu3,stu4]
+
+body_info=[stu1,stu2,stu3,stu4]
+for info in body_info:
+    for item in info:
+        print(item," ",end="")
+    print()

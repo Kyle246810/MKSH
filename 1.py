@@ -1,6 +1,6 @@
-date="76 98 42 90 80 62"
-date=date.split()
-scores=list()
-for item in date:
-    scores.append(int(item))
-print(score)
+stu1=["王大明",174,65]
+stu2=["林小華",168,58]
+stu3=["許中和",182,70]
+stu4=["趙小華",159,45]
+body_info=[stu1,stu2,stu3,stu4]
+print(body_info)
